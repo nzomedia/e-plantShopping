@@ -39,6 +39,18 @@ body {
    
 }
 
+.cart-button {
+    position: relative;
+}
+
+.cart-button .cart-size {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -51,7 +63,10 @@ body {
 .product-category {
     text-align: center;
     font-weight: bold;
-    font-size:1.5rem
+    font-size:1.5rem;
+    margin-top: 32px;
+    padding: 12px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .product-list {
